@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CineLog</string>
+    <string name="tab_now_playing">Now Playing</string>
+    <string name="tab_plan_to_watch">Plan to Watch</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="dialog_delete_title">Hapus Film</string>
+    <string name="dialog_delete_message">Apakah Anda yakin ingin menghapus film ini dari katalog?</string>
+    <string name="dialog_spoiler_title">Peringatan Spoiler</string>
+    <string name="dialog_spoiler_message">Ulasan film ini mengandung bocoran cerita (spoiler). Tetap ingin melihat?</string>
 </resources>

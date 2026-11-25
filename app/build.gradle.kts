@@ -1,16 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("kotlin-parcelize") // Week 8 Slide 14: Plugin Parcelize
+    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.plugin.parcelize")
 }
 
 android {
     namespace = "com.bpjs.cinelog"
-    compileSdk = 37
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.bpjs.cinelog"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -24,6 +25,10 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
     }
 }
 

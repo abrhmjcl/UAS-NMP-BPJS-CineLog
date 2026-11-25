@@ -31,6 +31,5 @@ data class MovieItem(
         return 0
     }
 
-    override fun writeToParcel(p0: Parcel, p1: Int) {
-    }
+
 }
