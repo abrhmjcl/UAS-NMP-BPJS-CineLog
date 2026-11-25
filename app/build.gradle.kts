@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("kotlin-parcelize")
+    id("kotlin-parcelize") // Week 8 Slide 14: Plugin Parcelize
 }
 
 android {
@@ -39,6 +39,8 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     implementation(libs.picasso)
     implementation(libs.volley)
+
+    implementation("org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)

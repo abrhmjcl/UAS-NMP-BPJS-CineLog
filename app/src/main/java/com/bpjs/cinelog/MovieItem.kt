@@ -1,5 +1,6 @@
 package com.bpjs.cinelog
 
+import android.os.Parcel
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
@@ -25,4 +26,11 @@ data class MovieItem(
     }
 
     override fun toString(): String = title
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    override fun writeToParcel(p0: Parcel, p1: Int) {
+    }
 }
