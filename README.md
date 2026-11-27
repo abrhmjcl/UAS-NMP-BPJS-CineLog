@@ -4,7 +4,7 @@ Aplikasi Android Native **CineLog** dibangun untuk mencatat daftar film yang sud
 
 ---
 
-## 👥 Tim Pengembang (Kelompok BPJS)
+## Tim Pengembang (Kelompok BPJS)
 
 | Nama Lengkap | NRP |
 | :--- | :--- |
@@ -14,7 +14,7 @@ Aplikasi Android Native **CineLog** dibangun untuk mencatat daftar film yang sud
 
 ---
 
-## 🚀 Fitur Utama & Fungsionalitas
+## Fitur Utama & Fungsionalitas
 
 1. **Onboarding & Penyimpanan Sesi Pengguna**
    - Halaman awal (`IntroActivity`) meminta input nama dan tanggal lahir menggunakan **DatePickerDialog**.
@@ -40,7 +40,7 @@ Aplikasi Android Native **CineLog** dibangun untuk mencatat daftar film yang sud
 
 ---
 
-## ⚙️ Petunjuk Menjalankan Aplikasi
+## Petunjuk Menjalankan Aplikasi
 
 ### Prasyarat
 - **Android Studio** (dengan Android SDK 37, Min SDK 24, dan JDK 11)
@@ -68,7 +68,7 @@ Aplikasi Android Native **CineLog** dibangun untuk mencatat daftar film yang sud
 
 ---
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```text
 UAS-NMP-BPJS-CineLog/
