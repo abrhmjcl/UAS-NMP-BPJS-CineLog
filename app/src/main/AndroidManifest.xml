@@ -33,6 +33,23 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
+        <activity
+            android:name=".NewMovieActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EditMovieActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CinemaWebActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
